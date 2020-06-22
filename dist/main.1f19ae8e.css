@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: overlay;
+  /*解决滚动条挤压页面*/
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+#page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#app1 {
+  outline: 1px solid #808069;
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#cal {
+  display: flex;
+}
+
+#result {
+  border: 1px solid #808a87;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.method {
+  border: 1px solid #c0c0c0;
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#app2 {
+  outline: 1px solid #808069;
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#tag {
+  display: flex;
+}
+
+#tag > li {
+  border: 1px solid grey;
+  min-height: 40px;
+  min-width: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#tag > li.active {
+  background: grey;
+  color: white;
+}
+
+#olContent {
+  display: flex;
+}
+
+#olContent > li {
+  border: 1px solid grey;
+  height: 150px;
+  width: 300px;
+  text-align: center;
+  display: none;
+}
+
+#olContent > li.active {
+  display: block;
+}
+
+#app3 {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  outline: 1px solid #808069;
+  align-items: center;
+}
+
+.square {
+  border: 1px solid #808a87;
+  width: 100px;
+  height: 100px;
+  margin-left: 20%;
+  transition: transform 2s;
+  background: #808a87;
+}
+
+#app3 > .active {
+  transform: translateX(15vw);
+}
+
+#app4 {
+  outline: 1px solid #808069;
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: red;
+}
+
+#app4 > .active {
+  animation: change 2s infinite alternate-reverse;
+}
+
+@keyframes change {
+  from {
+    background: red;
+  }
+  to {
+    background: green;
+  }
+}
+
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */

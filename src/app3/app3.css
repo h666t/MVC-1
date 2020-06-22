@@ -1,0 +1,20 @@
+#app3 {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  outline: 1px solid #808069;
+  align-items: center;
+}
+
+.square {
+  border: 1px solid #808a87;
+  width: 100px;
+  height: 100px;
+  margin-left: 20%;
+  transition: transform 2s;
+  background: #808a87;
+}
+
+#app3 > .active {
+  transform: translateX(15vw);
+}

@@ -1,0 +1,28 @@
+#app1 {
+  outline: 1px solid #808069;
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#cal {
+  display: flex;
+}
+
+#result {
+  border: 1px solid #808a87;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.method {
+  border: 1px solid #c0c0c0;
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}

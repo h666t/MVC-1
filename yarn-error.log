@@ -1,0 +1,36 @@
+Arguments: 
+  D:\Software\nodejs\node.exe D:\Software\yarn\bin\yarn.js init
+
+PATH: 
+  D:\Software\cmder\vendor\git-for-windows\mingw64\bin;D:\Software\cmder\vendor\git-for-windows\usr\bin;C:\Users\HUANG\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\QuickTime\QTSystem;D:\Software\cmder;D:\Software\nodejs;D:\Software\yarn\bin;D:\Software\hugo;C:\Users\HUANG\AppData\Local\Microsoft\WindowsApps;D:\tool\vscode\Microsoft VS Code\bin;C:\Users\HUANG\AppData\Roaming\npm;C:\Users\HUANG\AppData\Local\Yarn\bin;D:\tool\WebStorm 2020.1.2\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  8.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (D:\Software\yarn\lib\cli.js:137008:13)
+      at emitNone (events.js:106:13)
+      at Interface.emit (events.js:208:7)
+      at Interface._ttyWrite (readline.js:774:16)
+      at ReadStream.onkeypress (readline.js:158:10)
+      at emitTwo (events.js:126:13)
+      at ReadStream.emit (events.js:214:7)
+      at emitKeys (internal/readline.js:420:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1010:36)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

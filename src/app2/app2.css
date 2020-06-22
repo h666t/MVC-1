@@ -1,0 +1,42 @@
+#app2 {
+  outline: 1px solid #808069;
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#tag {
+  display: flex;
+}
+
+#tag > li {
+  border: 1px solid grey;
+  min-height: 40px;
+  min-width: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#tag > li.active {
+  background: grey;
+  color: white;
+}
+
+#olContent {
+  display: flex;
+}
+
+#olContent > li {
+  border: 1px solid grey;
+  height: 150px;
+  width: 300px;
+  text-align: center;
+  display: none;
+}
+
+#olContent > li.active {
+  display: block;
+}

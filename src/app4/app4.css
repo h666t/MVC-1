@@ -1,0 +1,28 @@
+#app4 {
+  outline: 1px solid #808069;
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: red;
+}
+
+#app4 > .active {
+  animation: change 2s infinite alternate-reverse;
+}
+
+@keyframes change {
+  from {
+    background: red;
+  }
+  to {
+    background: green;
+  }
+}
